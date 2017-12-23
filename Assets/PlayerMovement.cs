@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey("space") && ground)
         {
 
-            rigid.AddForce(Vector2.up * 400);
+            rigid.AddForce(Vector2.up * 300);
 			ground = false;
 			//print ("Jump turned to false");
             
